@@ -22,8 +22,7 @@
 or reject the leaves applied for, by an employee under him.
 - **Cloud Notification** - Push Notifications on leave status change
 
-### Admin Application
-<a href="https://github.com/deepaktiwari88/HR-Management-and-Geo-Attendance-System-Admin-App">Link to Administrator Application</a>
+
 
 ## Setting Up the Project
 
@@ -36,12 +35,6 @@ The Location of the various sites are stored in the Location Stub of RTDB with k
 - name(string)
 - radius(number in metres)
 
-<br><img src="assets/github/location.png" width="250"> <br>
-Attendance will be added to the **"Attendance"** stub in the RTDB tree. Leave System has some specific parameters for every employee which is required to run the app.
-<br><img src="assets/github/leave.png" width="250"> <br>
-I will attach a JSON sample file(in the root directory) which you can use to prepopulate sample data in the RTDB using Import JSON feature.
-<br><img src="assets/github/sample.png" width="250"> <br>
-At last, Kindly update the google API key in the android manifest and enable the necessary Maps API on your API console. <a href="https://console.developers.google.com">Google Developer API console</a>
 
 ### Cloud Functions
 Push Notifications has been enabled in the application to provide update regarding the Leave Application from Manager.
@@ -67,22 +60,3 @@ flutter pub get
 flutter run
 ```
 
-## Screenshots
-
-
-<img src="assets/github/landing.jpg" width="200" > &nbsp; <img
-src="assets/github/login.jpg" width="200"> &nbsp; <img
-src="assets/github/drawer.jpg" width="200"> &nbsp; <img
-src="assets/github/dashboard.jpg" width="200"> &nbsp; <img
-src="assets/github/make_attendance.jpg" width="200"> &nbsp; <img
-src="assets/github/mark_attendance.jpg" width="200"> &nbsp; <img
-src="assets/github/leave_make.jpg" width="200"> &nbsp; <img
-src="assets/github/leave_status.jpg" width="200"> &nbsp; <img
-src="assets/github/calendar.jpg" width="200">
-
-## Our TEAM 🤘
-
-- <a href="https://github.com/deepaktiwari88">Deepak Tiwari</a>
-- <a href="https://github.com/arunav11">Arunav Sharma</a>
-- <a href="https://github.com/agargya123">Avantika Gargya</a>
-- <a href="https://github.com/divy4nsh">Divyansh Singh</a>
